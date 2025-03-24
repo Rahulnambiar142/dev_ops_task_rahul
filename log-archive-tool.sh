@@ -21,3 +21,13 @@ tar -czf "$ARCHIVE_DIR/$ARCHIVE_NAME" -C "$LOG_DIR" .
 # Log the archive creation
 echo "$(date +"%Y-%m-%d %H:%M:%S") - Archived $LOG_DIR to $ARCHIVE_DIR/$ARCHIVE_NAME" >> "$LOG_FILE"
 echo "Logs archived successfully: $ARCHIVE_DIR/$ARCHIVE_NAME"
+
+
+
+
+
+
+2:25
+chmod +x log-archive.sh
+2:25
+./log-archive.sh /var/log
